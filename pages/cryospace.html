@@ -1,0 +1,174 @@
+<!DOCTYPE html>
+<html lang="pl">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Cryospace — Portfolio</title>
+    <link rel="stylesheet" href="../style.css">
+</head>
+<body class="lang-en">
+
+    <a href="../index.html" class="back-btn">
+        <svg viewBox="0 0 24 24" width="20" height="20" stroke="currentColor" stroke-width="2" fill="none" stroke-linecap="round" stroke-linejoin="round">
+            <line x1="19" y1="12" x2="5" y2="12"></line>
+            <polyline points="12 19 5 12 12 5"></polyline>
+        </svg>
+        <span class="en">Back to Portfolio</span>
+        <span class="pl">Wróć do Portfolio</span>
+    </a>
+
+    <div class="lang-switch">
+        <button type="button" class="lang-btn active" onclick="setLanguage('en')" id="btn-en">EN</button>
+        <button type="button" class="lang-btn" onclick="setLanguage('pl')" id="btn-pl">PL</button>
+    </div>
+
+<div class="project-hero">
+    <div class="container">
+        <a href="https://store.steampowered.com/app/1460010/Cryospace__survival_horror_in_space/" target="_blank" rel="noopener noreferrer" class="hero-link">
+            <img src="https://shared.fastly.steamstatic.com/store_item_assets/steam/apps/1460010/header.jpg" alt="Cryospace" class="hero-banner" style="margin-bottom: 0;">
+        </a>
+        <h1 style="margin-top: 2rem;">Cryospace</h1>
+        <p class="intro-text">
+            <span class="en"><strong>Unity Internship</strong> — Work on a commercial project focusing on gameplay mechanics and QA testing.</span>
+            <span class="pl"><strong>Praktyki w Unity</strong> — Praca przy komercyjnym projekcie, skupiona na mechanikach rozgrywki i testach QA.</span>
+        </p>
+    </div>
+</div>
+
+<div class="container">
+
+    <div class="mechanic-row full-width-row">
+        <div class="mechanic-text" style="width: 100%;">
+            <span class="internship-highlight">
+                <span class="en">Unity Internship</span>
+                <span class="pl">Praktyki w Unity</span>
+            </span>
+            <h3>
+                <span class="en">Programming & Mechanics</span>
+                <span class="pl">Programowanie i Mechaniki</span>
+            </h3>
+            <p>
+                <span class="en">During my internship, I spent about a month actively working on this title, tasked with developing gameplay features in Unity. One of my assignments was creating a functional <strong>Door System</strong> for the game.</span>
+                <span class="pl">W trakcie moich praktyk, przez około miesiąc pracowałem nad tym tytułem, zajmując się tworzeniem mechanik rozgrywki w Unity. Jednym z moich zadań było stworzenie funkcjonalnego <strong>Systemu Drzwi</strong>.</span>
+            </p>
+            <ul>
+                <li class="en"><strong>Gameplay Programming:</strong> Developed mechanics using C# in the Unity environment.</li>
+                <li class="pl"><strong>Programowanie Rozgrywki:</strong> Tworzenie mechanik przy użyciu C# w środowisku Unity.</li>
+                <li class="en"><strong>QA & Testing:</strong> Performed active testing of the public demo, identifying and reporting logic flaws, collision bugs, and exploits.</li>
+                <li class="pl"><strong>Testy i QA:</strong> Aktywne testowanie publicznego dema, identyfikacja i raportowanie luk logicznych, błędów kolizji oraz exploitów.</li>
+                <li class="en"><strong>Team Collaboration:</strong> Collaborated with a small indie team on a commercial project.</li>
+                <li class="pl"><strong>Współpraca:</strong> Praca z małym zespołem indie przy komercyjnym projekcie.</li>
+            </ul>
+            
+            <p style="margin-top: 2rem; padding: 1rem 1.5rem; border-left: 4px solid var(--accent); background: rgba(255, 119, 0, 0.05); border-radius: 0 8px 8px 0; color: #ddd; font-size: 0.95rem;">
+                <span class="en"><strong>Note:</strong> Due to NDA restrictions, I cannot showcase the underlying code or unreleased internal assets from my work. The media used here are strictly from the game's public Steam page, trailers, and a previously available public demo.</span>
+                <span class="pl"><strong>Uwaga:</strong> Ze względu na umowę o poufności (NDA) nie mogę udostępnić kodu ani wewnętrznych, nieopublikowanych materiałów z mojej pracy. Użyte tu media pochodzą wyłącznie z publicznej strony Steam, zwiastunów gry oraz niedostępnego już publicznego dema.</span>
+            </p>
+        </div>
+        
+        <div class="mechanic-media" style="width: 100%;">
+            <div class="coverflow-carousel">
+                
+                <button class="cf-arrow cf-arrow-left" aria-label="Poprzedni">
+                    <svg viewBox="0 0 24 24" width="24" height="24" stroke="currentColor" fill="none"><polyline points="15 18 9 12 15 6"></polyline></svg>
+                </button>
+
+                <!-- Slajd 0: Zwiastun wideo -->
+                <div class="cf-slide">
+                    <div class="cf-overlay"></div>
+                    <iframe src="https://www.youtube.com/embed/HTigWh4n2LY" title="Cryospace Gameplay Trailer" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
+                </div>
+
+                <!-- Slajdy ze screenami -->
+                <div class="cf-slide"><div class="cf-overlay"></div><img src="https://shared.fastly.steamstatic.com/store_item_assets/steam/apps/1460010/ss_9d157674f58245edcfcafc59d4fcef33d7a39000.1920x1080.jpg?t=1754055541" alt="Screenshot"></div>
+                <div class="cf-slide"><div class="cf-overlay"></div><img src="https://shared.fastly.steamstatic.com/store_item_assets/steam/apps/1460010/ss_a6cb09bfd198337fe23da9d92781f5e7c78a7577.1920x1080.jpg?t=1754055541" alt="Screenshot"></div>
+                <div class="cf-slide"><div class="cf-overlay"></div><img src="https://shared.fastly.steamstatic.com/store_item_assets/steam/apps/1460010/ss_e77281f7cef977f36159a87b2230200a317f8504.1920x1080.jpg?t=1754055541" alt="Screenshot"></div>
+                <div class="cf-slide"><div class="cf-overlay"></div><img src="https://shared.fastly.steamstatic.com/store_item_assets/steam/apps/1460010/ss_e49108f930776c88203ffc9e26668b6e7fcce5e5.1920x1080.jpg?t=1754055541" alt="Screenshot"></div>
+                <div class="cf-slide"><div class="cf-overlay"></div><img src="https://shared.fastly.steamstatic.com/store_item_assets/steam/apps/1460010/ss_9cb7f0d98af9c10b35aa454d2d5a368a5894c531.1920x1080.jpg?t=1754055541" alt="Screenshot"></div>
+                <div class="cf-slide"><div class="cf-overlay"></div><img src="https://shared.fastly.steamstatic.com/store_item_assets/steam/apps/1460010/ss_7206657e41f1241a65f4a4d522b2f6d087296dea.1920x1080.jpg?t=1754055541" alt="Screenshot"></div>
+                <div class="cf-slide"><div class="cf-overlay"></div><img src="https://shared.fastly.steamstatic.com/store_item_assets/steam/apps/1460010/ss_5105f629832ce4ed382bac5c38b57c6d8f693248.1920x1080.jpg?t=1754055541" alt="Screenshot"></div>
+                <div class="cf-slide"><div class="cf-overlay"></div><img src="https://shared.fastly.steamstatic.com/store_item_assets/steam/apps/1460010/ss_5daabf3dc3df417ddeeca6454d2dbee5874afe45.1920x1080.jpg?t=1754055541" alt="Screenshot"></div>
+                <div class="cf-slide"><div class="cf-overlay"></div><img src="https://shared.fastly.steamstatic.com/store_item_assets/steam/apps/1460010/ss_1f1e274051c3e7f79d5973da4352beb5b71ce10a.1920x1080.jpg?t=1754055541" alt="Screenshot"></div>
+
+                <button class="cf-arrow cf-arrow-right" aria-label="Następny">
+                    <svg viewBox="0 0 24 24" width="24" height="24" stroke="currentColor" fill="none"><polyline points="9 18 15 12 9 6"></polyline></svg>
+                </button>
+            </div>
+        </div>
+    </div>
+
+    <div class="mechanic-row full-width-row">
+        <div class="mechanic-text" style="width: 100%;">
+            <span class="internship-highlight">
+                <span class="en">Testing & QA</span>
+                <span class="pl">Testy i QA</span>
+            </span>
+            <h3>
+                <span class="en">Quality Assurance & Bug Reporting</span>
+                <span class="pl">Zapewnienie Jakości i Raportowanie Błędów</span>
+            </h3>
+            <p>
+                <span class="en">Another major part of my internship was Quality Assurance. I spent time testing the publicly available demo of the game, actively searching for logic flaws, collision bugs, and player exploits.</span>
+                <span class="pl">Kolejnym ważnym elementem moich praktyk były testy QA. Spędzałem czas na ogrywaniu publicznie dostępnego dema gry, aktywnie szukając luk logicznych, problemów z kolizjami i exploitów.</span>
+            </p>
+            <p>
+                <span class="en">I successfully identified and documented multiple issues. <strong>The videos presented here show just a few selected examples of the many bugs I found</strong> in the (now unavailable) public demo version.</span>
+                <span class="pl">Udało mi się zidentyfikować i udokumentować wiele problemów. <strong>Przedstawione tutaj filmy to tylko wybrane przykłady z wielu błędów, które znalazłem</strong> w (niedostępnym już) publicznym demie gry.</span>
+            </p>
+        </div>
+        <div class="mechanic-media" style="width: 100%;">
+            <div class="qa-videos">
+                <div class="video-container">
+                    <iframe src="https://www.youtube.com/embed/RZwuvGE8maU" title="Cryospace QA Bug Report 1" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
+                </div>
+                <div class="video-container">
+                    <iframe src="https://www.youtube.com/embed/aJ7IqwF2spI" title="Cryospace QA Bug Report 2" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
+                </div>
+                <div class="video-container">
+                    <iframe src="https://www.youtube.com/embed/2fHbnSZp2Pw" title="Cryospace QA Bug Report 3" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
+                </div>
+            </div>
+        </div>
+    </div>
+
+</div>
+
+<footer>
+    <p>Miłosz "Robot 12" Seweryn - Portfolio</p>
+
+    <div class="social-links">
+        <div class="social-group" id="footer-email-trigger" role="button" tabindex="0" aria-label="Copy Email">
+            <div class="social-icon email" aria-hidden="true">
+                <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="currentColor">
+                    <path d="M20 4H4c-1.1 0-1.99.9-1.99 2L2 18c0 1.1.9 2 2 2h16c1.1 0 2-.9 2-2V6c0-1.1-.9-2-2-2zm0 4l-8 5-8-5V6l8 5 8-5v2z"/>
+                </svg>
+            </div>
+            <span class="tooltip-text">
+                <span class="en">Copied!</span>
+                <span class="pl">Skopiowano!</span>
+            </span>
+        </div>
+
+        <a href="https://www.linkedin.com/in/mi%C5%82osz-s-375976254/" target="_blank" rel="noopener noreferrer" class="social-group social-group--link" aria-label="LinkedIn Profile">
+            <div class="social-icon linkedin" aria-hidden="true">
+                <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="currentColor" width="24" height="24" focusable="false">
+                    <path d="M20.5 2h-17A1.5 1.5 0 002 3.5v17A1.5 1.5 0 003.5 22h17a1.5 1.5 0 001.5-1.5v-17A1.5 1.5 0 0020.5 2zM8 19H5v-9h3zM6.5 8.25A1.75 1.75 0 118.3 6.5a1.78 1.78 0 01-1.8 1.75zM19 19h-3v-4.74c0-1.42-.6-1.93-1.38-1.93A1.74 1.74 0 0013 14.19a.66.66 0 000 .14V19h-3v-9h2.9v1.3a3.11 3.11 0 012.7-1.4c1.55 0 3.36.86 3.36 3.66z"></path>
+                </svg>
+            </div>
+        </a>
+
+        <a href="https://github.com/Robot-12" target="_blank" rel="noopener noreferrer" class="social-group social-group--link" aria-label="GitHub Profile">
+            <div class="social-icon github" aria-hidden="true">
+                <svg viewBox="0 0 24 24" aria-hidden="true" fill="currentColor">
+                    <path d="M12 1C5.923 1 1 5.923 1 12c0 4.867 3.149 8.979 7.521 10.436.55.096.756-.233.756-.522 0-.262-.013-1.128-.013-2.049-2.764.509-3.479-.674-3.699-1.292-.124-.317-.66-1.293-1.127-1.554-.385-.207-.936-.715-.014-.729.866-.014 1.485.797 1.691 1.128.99 1.663 2.571 1.196 3.204.907.096-.715.385-1.196.701-1.471-2.448-.275-5.005-1.224-5.005-5.432 0-1.196.426-2.186 1.128-2.956-.111-.275-.496-1.402.11-2.915 0 0 .921-.288 3.024 1.128a10.193 10.193 0 0 1 2.75-.371c.936 0 1.871.123 2.75.371 2.104-1.43 3.025-1.128 3.025-1.128.605 1.513.221 2.64.111 2.915.701.77 1.127 1.747 1.127 2.956 0 4.222-2.571 5.157-5.019 5.432.399.344.743 1.004.743 2.035 0 1.471-.014 2.654-.014 3.025 0 .289.206.632.756.522C19.851 20.979 23 16.854 23 12c0-6.077-4.922-11-11-11Z"></path>
+                </svg>
+            </div>
+        </a>
+    </div>
+</footer>
+
+<script src="../js/site.js" defer></script>
+<script src="../js/carousel.js" defer></script>
+
+</body>
+</html>

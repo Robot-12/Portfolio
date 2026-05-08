@@ -1,0 +1,28 @@
+:root {
+    --bg-color: #121212;
+    --card-bg: #1e1e1e;
+    --text-main: #e0e0e0;
+    --text-muted: #b0b0b0;
+    --accent: #ff7700;
+    --status-color: #00ccff;
+    --font-main: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    --linkedin-color: #0a66c2;
+    --github-color: #ffffff;
+}
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    background-color: var(--bg-color);
+    color: var(--text-main);
+    font-family: var(--font-main);
+    line-height: 1.6;
+    position: relative;
+}
+
+body.lang-en .pl { display: none !important; }
+body.lang-pl .en { display: none !important; }

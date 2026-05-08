@@ -1,0 +1,264 @@
+<!DOCTYPE html>
+<html lang="pl">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>TORMENTOR — Portfolio</title>
+    <link rel="stylesheet" href="../style.css">
+</head>
+<body class="lang-en">
+
+    <a href="../index.html" class="back-btn">
+        <svg viewBox="0 0 24 24" width="20" height="20" stroke="currentColor" stroke-width="2" fill="none" stroke-linecap="round" stroke-linejoin="round">
+            <line x1="19" y1="12" x2="5" y2="12"></line>
+            <polyline points="12 19 5 12 12 5"></polyline>
+        </svg>
+        <span class="en">Back to Portfolio</span>
+        <span class="pl">Wróć do Portfolio</span>
+    </a>
+
+    <div class="lang-switch">
+        <button type="button" class="lang-btn active" onclick="setLanguage('en')" id="btn-en">EN</button>
+        <button type="button" class="lang-btn" onclick="setLanguage('pl')" id="btn-pl">PL</button>
+    </div>
+
+<div class="project-hero">
+    <div class="container">
+        <a href="https://store.steampowered.com/app/1493440/TORMENTOR/" target="_blank" rel="noopener noreferrer" class="hero-link">
+            <img src="https://shared.fastly.steamstatic.com/store_item_assets/steam/apps/1493440/header.jpg" alt="TORMENTOR" class="hero-banner" style="margin-bottom: 0;">
+        </a>
+        <h1 style="margin-top: 2rem;">TORMENTOR</h1>
+        <p class="intro-text">
+            <span class="en"><strong>Programmer</strong> — Long-term involvement in a large-scale project, focusing on comprehensive UI implementation, gameplay systems, and cross-disciplinary asset creation.</span>
+            <span class="pl"><strong>Programista</strong> — Długoterminowe zaangażowanie w duży projekt, ze szczególnym naciskiem na kompleksowe wdrażanie UI, systemy rozgrywki i wsparcie techniczne.</span>
+        </p>
+    </div>
+</div>
+
+<div class="container">
+
+    <div class="mechanic-row full-width-row">
+        <div class="mechanic-text" style="width: 100%;">
+            <span class="internship-highlight">
+                <span class="en">Scale & Production Flow</span>
+                <span class="pl">Skala i Przebieg Produkcji</span>
+            </span>
+            <h3>
+                <span class="en">Dynamic Team & Long-Term Support</span>
+                <span class="pl">Dynamiczny Zespół i Długoterminowe Wsparcie</span>
+            </h3>
+            <p>
+                <span class="en">Tormentor was the largest project I worked on. The programming team structure fluctuated dynamically, often coming down to a small core team. My involvement intertwined with other projects—I was initially transferred to Tormentor after early work on Jinn, then returned to Jinn, and back to Tormentor again. Ultimately, I stayed with this title long-term, supporting it through to its final release (with breaks to develop Nymphomaniac and a job change).</span>
+                <span class="pl">Tormentor był największym projektem, w jakim brałem udział. Skład grupy programistów podlegał ciągłym, dynamicznym zmianom, często sprowadzając się do małego, bazowego zespołu. Moja praca nad tym tytułem przeplatała się z innymi projektami – początkowo zostałem przeniesiony do Tormentora po pierwszej fazie prac nad Jinnem, po czym wracałem do Jinna i ponownie do Tormentora. Ostatecznie związałem się z tym tytułem na dłużej, wspierając go aż do samej premiery (z przerwami na produkcję gry Nymphomaniac oraz zmianę pracy).</span>
+            </p>
+            <ul>
+                <li class="en"><strong>User Interface (UI):</strong> Fully programmed the mechanics and logic for 100% of the Main Menu and Pause Menu based on provided graphic designs. I was also responsible for maintaining and implementing the vast majority of other UI elements in the game.</li>
+                <li class="pl"><strong>Interfejs Użytkownika (UI):</strong> Wdrożenie od strony mechanicznej 100% logiki Głównego Menu oraz Menu Pauzy (na podstawie dostarczonych grafik). Opiekowałem się również implementacją większości pozostałych elementów interfejsu w grze.</li>
+                <li class="en"><strong>Gamepad Support in UI:</strong> Ensured gamepad compatibility across the game's interface, successfully adapting and fixing controller navigation even in UI modules originally created by other programmers.</li>
+                <li class="pl"><strong>Wsparcie Kontrolerów in UI:</strong> Zaimplementowałem pełną obsługę gamepadów w interfejsie. Obejmowało to dostosowanie nawigacji i naprawę błędów również w widgetach UI stworzonych wcześniej przez innych programistów.</li>
+                <li class="en"><strong>Censorship System:</strong> Programmed a mechanic that dynamically unlocked censorship toggles in the settings menu by detecting specific files downloaded by the player to their PC.</li>
+                <li class="pl"><strong>Opcje Cenzury:</strong> Stworzyłem system odblokowujący opcję cenzury w ustawieniach gry. Działanie opierało się na weryfikacji, czy gracz pobrał i umieścił odpowiednie pliki w folderze instalacyjnym na PC.</li>
+                <li class="en"><strong>System Migration & Mechanics:</strong> Refactored and integrated complex systems left by previous developers, and built various mechanics from scratch (like specific collectibles tracking and an interactive meat-cooking system).</li>
+                <li class="pl"><strong>Migracja Systemów i Mechaniki:</strong> Przejmowanie i integracja złożonych systemów po innych programistach oraz tworzenie nowych rozwiązań (np. śledzenie znajdziek, system gotowania mięsa).</li>
+                <li class="en"><strong>Community & Post-Launch Support:</strong> Actively engaged with the player community on Discord after release, gathering feedback and identifying bugs for subsequent patches.</li>
+                <li class="pl"><strong>Wsparcie Społeczności:</strong> Aktywnie uczestniczyłem w komunikacji z graczami na serwerze Discord po premierze tytułu, zbierając feedback i wyłapując zgłaszane błędy do kolejnych aktualizacji.</li>
+            </ul>
+
+            <p style="margin-top: 2rem; padding: 1rem 1.5rem; border-left: 4px solid var(--accent); background: rgba(255, 119, 0, 0.05); border-radius: 0 8px 8px 0; color: #ddd; font-size: 0.95rem;">
+                <span class="en"><strong>Note:</strong> Due to NDA restrictions, I cannot showcase any backend engine views or source code for the core game. All visual materials presented here are from the released version. <em>(Exception: See the Proprietary Settings System section below)</em>.</span>
+                <span class="pl"><strong>Uwaga:</strong> Ze względu na umowę o poufności (NDA) nie mogę zaprezentować środowiska silnika ani fragmentów kodu głównej gry. Wszystkie materiały wizualne pochodzą z wydanej wersji. <em>(Wyjątek: Zobacz sekcję "Autorski System Ustawień" poniżej)</em>.</span>
+            </p>
+        </div>
+        
+        <div class="mechanic-media" style="width: 100%; display: flex; flex-direction: column; align-items: center;">
+            <div class="coverflow-carousel" style="width: 100%;">
+                <button class="cf-arrow cf-arrow-left" aria-label="Poprzedni">
+                    <svg viewBox="0 0 24 24" width="24" height="24" stroke="currentColor" fill="none"><polyline points="15 18 9 12 15 6"></polyline></svg>
+                </button>
+
+                <div class="cf-slide">
+                    <div class="cf-overlay"></div>
+                    <iframe src="https://www.youtube.com/embed/fdBuOCfpI5E?modestbranding=1&rel=0" title="TORMENTOR Trailer" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
+                </div>
+
+                <div class="cf-slide"><div class="cf-overlay"></div><img src="https://shared.fastly.steamstatic.com/store_item_assets/steam/apps/1493440/d714e4bc3af85bd7e9b708b5cc2f6e881c1b72ab/ss_d714e4bc3af85bd7e9b708b5cc2f6e881c1b72ab.1920x1080.jpg?t=1771007012" alt="Screenshot 1"></div>
+                <div class="cf-slide"><div class="cf-overlay"></div><img src="https://shared.fastly.steamstatic.com/store_item_assets/steam/apps/1493440/59a493c6197363db6e94bc3839ea8d43e5e9c03a/ss_59a493c6197363db6e94bc3839ea8d43e5e9c03a.1920x1080.jpg?t=1771007012" alt="Screenshot 2"></div>
+                <div class="cf-slide"><div class="cf-overlay"></div><img src="https://shared.fastly.steamstatic.com/store_item_assets/steam/apps/1493440/eec19def69544853210b17738f704cfe7eb6dce0/ss_eec19def69544853210b17738f704cfe7eb6dce0.1920x1080.jpg?t=1771007012" alt="Screenshot 3"></div>
+                <div class="cf-slide"><div class="cf-overlay"></div><img src="https://shared.fastly.steamstatic.com/store_item_assets/steam/apps/1493440/2e34c4fc106b72901ce1ec12a0ae67a2539271b4/ss_2e34c4fc106b72901ce1ec12a0ae67a2539271b4.1920x1080.jpg?t=1771007012" alt="Screenshot 4"></div>
+                <div class="cf-slide"><div class="cf-overlay"></div><img src="https://shared.fastly.steamstatic.com/store_item_assets/steam/apps/1493440/c0bc32212d3375f5740f319bedb14955660ed85d/ss_c0bc32212d3375f5740f319bedb14955660ed85d.1920x1080.jpg?t=1771007012" alt="Screenshot 5"></div>
+                <div class="cf-slide"><div class="cf-overlay"></div><img src="https://shared.fastly.steamstatic.com/store_item_assets/steam/apps/1493440/681f8bb26b171429fd0ffba2de56e3b50f6a7caa/ss_681f8bb26b171429fd0ffba2de56e3b50f6a7caa.1920x1080.jpg?t=1771007012" alt="Screenshot 6"></div>
+                <div class="cf-slide"><div class="cf-overlay"></div><img src="https://shared.fastly.steamstatic.com/store_item_assets/steam/apps/1493440/fd80105598bd3401c2c2887bb49e3d3c68fbc21a/ss_fd80105598bd3401c2c2887bb49e3d3c68fbc21a.1920x1080.jpg?t=1771007012" alt="Screenshot 7"></div>
+
+                <button class="cf-arrow cf-arrow-right" aria-label="Następny">
+                    <svg viewBox="0 0 24 24" width="24" height="24" stroke="currentColor" fill="none"><polyline points="9 18 15 12 9 6"></polyline></svg>
+                </button>
+            </div>
+        </div>
+    </div>
+
+    <div class="mechanic-row full-width-row">
+        <div class="mechanic-text" style="width: 100%;">
+            <span class="internship-highlight">
+                <span class="en">UI & Asset Creation</span>
+                <span class="pl">UI i Tworzenie Zasobów</span>
+            </span>
+            <h3>
+                <span class="en">Comprehensive Interface Development</span>
+                <span class="pl">Kompleksowe Wdrożenie Interfejsów</span>
+            </h3>
+            <p>
+                <span class="en">I handled the programming and implementation for the vast majority of the game's UI flows, focusing on both backend logic and frontend presentation.</span>
+                <span class="pl">Odpowiadałem za zaprogramowanie i wdrożenie niemal całości logiki UI w grze, dbając zarówno o zaplecze techniczne, jak i docelowe działanie mechaniczne interfejsu.</span>
+            </p>
+            <ul>
+                <li class="en"><strong>Dynamic Button Prompts:</strong> Developed an advanced system utilizing Rich Text Decorators to dynamically generate and display accurate controller or keyboard icons directly within text strings, instantly adapting to the player's active input method.</li>
+                <li class="pl"><strong>Dynamiczne Ikony Przycisków:</strong> Zaprojektowałem zaawansowany system wykorzystujący dekoratory tekstu (Rich Text) do dynamicznego generowania odpowiednich ikon klawiatury lub pada bezpośrednio w ciągach tekstowych, reagujący na bieżący kontroler gracza.</li>
+                <li class="en"><strong>Core Menus & Databases:</strong> Built the comprehensive logic for the Main Menu and the Escape Menu, which also featured an integrated Tutorial Database.</li>
+                <li class="pl"><strong>Główne Menu i Bazy Danych:</strong> Zbudowanie od podstaw logiki Głównego Menu oraz Menu Pauzy, w którym zintegrowana została również obszerna baza tutoriali informacyjnych.</li>
+                <li class="en"><strong>Summary Screens:</strong> Designed and programmed end-of-level summary screens to clearly display player statistics and session performance.</li>
+                <li class="pl"><strong>Ekrany Podsumowania:</strong> Stworzyłem i zaprogramowałem ekrany podsumowujące rozgrywkę (np. statystyki po zakończeniu etapu), dbając o precyzyjną i czytelną prezentację danych.</li>
+                <li class="en"><strong>Damage Feedback HUD:</strong> Implemented responsive visual feedback on the player's HUD to indicate incoming damage and hits.</li>
+                <li class="pl"><strong>HUD Obrażeń:</strong> Zaimplementowałem system wizualnego feedbacku na ekranie (HUD), który dynamicznie informuje gracza o otrzymywanych obrażeniach.</li>
+                <li class="en"><strong>Asset Generation:</strong> Due to art department shortages, I actively designed 2D UI assets. Because there was no time to replace them before the deadline, my temporary "placeholders" were fully shipped in the final product.</li>
+                <li class="pl"><strong>Tworzenie Zasobów:</strong> Z powodu braków kadrowych u grafików, samodzielnie projektowałem elementy 2D interfejsu. W związku z brakiem czasu na ich podmienienie przed premierą gry, stworzone przeze mnie robocze "placeholdery" ostatecznie trafiły do finalnego produktu.</li>
+            </ul>
+        </div>
+        
+        <div class="mechanic-media" style="width: 100%; display: grid; grid-template-columns: repeat(auto-fit, minmax(250px, 1fr)); gap: 1.5rem; padding-top: 1.5rem;">
+            <div style="aspect-ratio: 16 / 9; border-radius: 8px; overflow: hidden; border: 1px solid #444; box-shadow: 0 4px 15px rgba(0,0,0,0.5); background: #000; position: relative;">
+                <img src="../img/tormentor/ui1.gif" alt="Tormentor UI Implementation 1" style="width: 100%; height: 100%; object-fit: cover; display: block;">
+            </div>
+            
+            <div style="aspect-ratio: 16 / 9; border-radius: 8px; overflow: hidden; border: 1px solid #444; box-shadow: 0 4px 15px rgba(0,0,0,0.5); background: #000; position: relative;">
+                <video autoplay loop muted playsinline style="width: 100%; height: 100%; object-fit: cover; display: block;">
+                    <source src="../img/tormentor/ui2.mp4" type="video/mp4">
+                </video>
+            </div>
+        </div>
+
+        <div class="mechanic-media" style="width: 100%; display: flex; justify-content: center; padding-top: 1.5rem;">
+            <div style="width: 100%; max-width: 860px; aspect-ratio: 860 / 148; border-radius: 8px; overflow: hidden; border: 1px solid #444; box-shadow: 0 4px 15px rgba(0,0,0,0.5); background: #000; position: relative;">
+                <video autoplay loop muted playsinline style="width: 100%; height: 100%; object-fit: cover; display: block;">
+                    <source src="../img/tormentor/ui3_damage.mp4" type="video/mp4">
+                </video>
+            </div>
+        </div>
+    </div>
+
+    <div class="mechanic-row full-width-row">
+        <div class="mechanic-text" style="width: 100%;">
+            <span class="internship-highlight">
+                <span class="en">System Architecture</span>
+                <span class="pl">Architektura Systemów</span>
+            </span>
+            <h3>
+                <span class="en">The In-Game Computer Framework</span>
+                <span class="pl">Wbudowany System Komputera</span>
+            </h3>
+            <p>
+                <span class="en">Beyond standard menus, I developed the foundational architecture for the game's interactive in-game computer system. Within this PC system, I implemented:</span>
+                <span class="pl">Oprócz standardowych menu, zbudowałem strukturę dla interaktywnego systemu komputera w grze. W ramach tego modułu zrealizowałem:</span>
+            </p>
+            <ul>
+                <li class="en"><strong>Email System:</strong> A functional inbox framework allowing narrative delivery and task updates.</li>
+                <li class="pl"><strong>System E-mail:</strong> Funkcjonalna skrzynka pocztowa służąca do przekazywania narracji i aktualizacji celów misji.</li>
+                <li class="en"><strong>Full Economy & Shop:</strong> Built the logic for managing in-game currency, tracking balances, and facilitating the purchasing and selling of items via a virtual storefront.</li>
+                <li class="pl"><strong>Ekonomia i Sklep:</strong> Zbudowanie kompletnej logiki zarządzania wirtualną walutą, obsługi transakcji (kupno i sprzedaż) oraz funkcjonowania wirtualnego sklepu.</li>
+                <li class="en"><strong>Collectibles Database:</strong> A dedicated application acting as a database to track and display discovered lore items and secrets.</li>
+                <li class="pl"><strong>Baza Znajdziek:</strong> Dedykowana aplikacja śledząca i prezentująca odkryte przez gracza sekrety.</li>
+                <li class="en"><strong>Hub Customization:</strong> Created the logic allowing players to visually customize and upgrade their Main Hub hideout directly through the PC interface.</li>
+                <li class="pl"><strong>Customizacja Huba:</strong> Stworzenie logiki pozwalającej graczom na wizualną modyfikację i rozbudowę swojej głównej kryjówki z poziomu komputera.</li>
+                <li class="en"><strong>Media Players:</strong> Implemented fully functional audio players, video players, and image viewers operating natively within the game's virtual OS.</li>
+                <li class="pl"><strong>Odtwarzacze Multimedialne:</strong> Zaimplementowanie funkcjonalnych odtwarzaczy audio, wideo oraz przeglądarki obrazów.</li>
+            </ul>
+            <p style="margin-top: 1.5rem;">
+                <span class="en">During Tormentor's development, this initial framework was still structurally unpolished and incomplete. However, a sudden studio decision required me to rapidly port this "work-in-progress" system to <a href="nymphomaniac.html" style="color: var(--accent); text-decoration: none; font-weight: bold;">Nymphomaniac</a>, where I had to quickly stitch it together to serve as one of the key mechanics of that game under a very tight deadline.</span>
+                <span class="pl">Początkowy szkielet tego komputera był w dużej mierze "rozgrzebanym", nieukończonym systemem. W trakcie produkcji Tormentora zapadła nagła decyzja o wdrożeniu go do innej gry. Musiałem błyskawicznie przenieść ten niedokończony kod do projektu <a href="nymphomaniac.html" style="color: var(--accent); text-decoration: none; font-weight: bold;">Nymphomaniac</a>, gdzie pod presją czasu złożyłem go w funkcjonującą całość, aby posłużył tam jako jedna z kluczowych mechanik rozgrywki.</span>
+            </p>
+        </div>
+        
+        <div class="mechanic-media" style="width: 100%; display: flex; justify-content: center; padding-top: 1rem;">
+            <div style="width: 100%; max-width: 800px; aspect-ratio: 16 / 9; border-radius: 8px; overflow: hidden; border: 1px solid #444; box-shadow: 0 4px 15px rgba(0,0,0,0.5); background: #000; position: relative;">
+                <video autoplay loop muted playsinline style="width: 100%; height: 100%; object-fit: cover; display: block;">
+                    <source src="../img/tormentor/pc1.mp4" type="video/mp4">
+                </video>
+            </div>
+        </div>
+    </div>
+
+    <div class="mechanic-row full-width-row">
+        <div class="mechanic-text" style="width: 100%;">
+            <span class="internship-highlight">
+                <span class="en">Proprietary Codebase</span>
+                <span class="pl">Własność Intelektualna</span>
+            </span>
+            <h3>
+                <span class="en">Advanced Custom Settings System</span>
+                <span class="pl">Autorski System Ustawień</span>
+            </h3>
+            <p>
+                <span class="en">While the majority of the game's code is strictly confidential, the advanced Settings System is built upon my proprietary framework. Developed privately as an independent module, it is my intellectual property and exempt from the studio's NDA. The system integrates visual UI elements directly into the game while relying on an independent backend logic foundation.</span>
+                <span class="pl">Większość kodu gry jest ściśle poufna, jednak zaawansowany System Ustawień opiera się na moim autorskim rozwiązaniu. Napisałem go prywatnie jako niezależny moduł, co czyni go moją własnością intelektualną wyłączoną z NDA studia. System ten dzieli się na dwie warstwy: integrację wizualną (UI i grafiki wdrożone bezpośrednio do gry) oraz niezależną logikę zaplecza.</span>
+            </p>
+            <p>
+                <span class="en">This framework handles everything from input mapping and graphics scaling to audio channels and accessibility toggles. Because I own this codebase, I can freely showcase its mechanics during technical interviews. <br><br><strong>Note: The visuals presented below combine footage from the released game with backend engine views captured in my clean, personal testing environment (not from Tormentor's project files).</strong></span>
+                <span class="pl">Szkielet ten obsługuje pełen zakres konfiguracji: od mapowania klawiszy i skalowania grafiki, po kanały audio i opcje dostępności. Ze względu na to, że posiadam pełnię praw do kodu, mogę bez problemu prezentować jego działanie oraz układ architektury podczas rozmów technicznych. <br><br><strong>Uwaga: zaprezentowane poniżej materiały to połączenie ujęć z wydanej gry oraz widoku z silnika, który nie pochodzi z plików projektu Tormentor, lecz z mojego czystego, prywatnego środowiska testowego.</strong></span>
+            </p>
+        </div>
+        
+        <div class="mechanic-media" style="width: 100%; display: grid; grid-template-columns: repeat(auto-fit, minmax(300px, 1fr)); gap: 1.5rem; padding-top: 1.5rem;">
+            <div style="aspect-ratio: 16 / 9; border-radius: 8px; overflow: hidden; border: 1px solid #444; box-shadow: 0 4px 15px rgba(0,0,0,0.5); background: #000; position: relative;">
+                <video autoplay loop muted playsinline style="width: 100%; height: 100%; object-fit: cover; display: block;">
+                    <source src="../img/tormentor/settings1.mp4" type="video/mp4">
+                </video>
+            </div>
+            
+            <div style="aspect-ratio: 16 / 9; border-radius: 8px; overflow: hidden; border: 1px solid #444; box-shadow: 0 4px 15px rgba(0,0,0,0.5); background: #000; position: relative;">
+                <video autoplay loop muted playsinline style="width: 100%; height: 100%; object-fit: cover; display: block;">
+                    <source src="../img/tormentor/settings2.mp4" type="video/mp4">
+                </video>
+            </div>
+        </div>
+    </div>
+
+</div>
+
+<footer>
+    <p>Miłosz "Robot 12" Seweryn - Portfolio</p>
+
+    <div class="social-links">
+        <div class="social-group" id="footer-email-trigger" role="button" tabindex="0" aria-label="Copy Email">
+            <div class="social-icon email" aria-hidden="true">
+                <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="currentColor">
+                    <path d="M20 4H4c-1.1 0-1.99.9-1.99 2L2 18c0 1.1.9 2 2 2h16c1.1 0 2-.9 2-2V6c0-1.1-.9-2-2-2zm0 4l-8 5-8-5V6l8 5 8-5v2z"/>
+                </svg>
+            </div>
+            <span class="tooltip-text">
+                <span class="en">Copied!</span>
+                <span class="pl">Skopiowano!</span>
+            </span>
+        </div>
+
+        <a href="https://www.linkedin.com/in/mi%C5%82osz-s-375976254/" target="_blank" rel="noopener noreferrer" class="social-group social-group--link" aria-label="LinkedIn Profile">
+            <div class="social-icon linkedin" aria-hidden="true">
+                <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="currentColor" width="24" height="24" focusable="false">
+                    <path d="M20.5 2h-17A1.5 1.5 0 002 3.5v17A1.5 1.5 0 003.5 22h17a1.5 1.5 0 001.5-1.5v-17A1.5 1.5 0 0020.5 2zM8 19H5v-9h3zM6.5 8.25A1.75 1.75 0 118.3 6.5a1.78 1.78 0 01-1.8 1.75zM19 19h-3v-4.74c0-1.42-.6-1.93-1.38-1.93A1.74 1.74 0 0013 14.19a.66.66 0 000 .14V19h-3v-9h2.9v1.3a3.11 3.11 0 012.7-1.4c1.55 0 3.36.86 3.36 3.66z"></path>
+                </svg>
+            </div>
+        </a>
+
+        <a href="https://github.com/Robot-12" target="_blank" rel="noopener noreferrer" class="social-group social-group--link" aria-label="GitHub Profile">
+            <div class="social-icon github" aria-hidden="true">
+                <svg viewBox="0 0 24 24" aria-hidden="true" fill="currentColor">
+                    <path d="M12 1C5.923 1 1 5.923 1 12c0 4.867 3.149 8.979 7.521 10.436.55.096.756-.233.756-.522 0-.262-.013-1.128-.013-2.049-2.764.509-3.479-.674-3.699-1.292-.124-.317-.66-1.293-1.127-1.554-.385-.207-.936-.715-.014-.729.866-.014 1.485.797 1.691 1.128.99 1.663 2.571 1.196 3.204.907.096-.715.385-1.196.701-1.471-2.448-.275-5.005-1.224-5.005-5.432 0-1.196.426-2.186 1.128-2.956-.111-.275-.496-1.402.11-2.915 0 0 .921-.288 3.024 1.128a10.193 10.193 0 0 1 2.75-.371c.936 0 1.871.123 2.75.371 2.104-1.43 3.025-1.128 3.025-1.128.605 1.513.221 2.64.111 2.915.701.77 1.127 1.747 1.127 2.956 0 4.222-2.571 5.157-5.019 5.432.399.344.743 1.004.743 2.035 0 1.471-.014 2.654-.014 3.025 0 .289.206.632.756.522C19.851 20.979 23 16.854 23 12c0-6.077-4.922-11-11-11Z"></path>
+                </svg>
+            </div>
+        </a>
+    </div>
+</footer>
+
+<script src="../js/site.js" defer></script>
+<script src="../js/carousel.js" defer></script>
+
+</body>
+</html>
