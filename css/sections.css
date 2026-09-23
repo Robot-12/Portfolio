@@ -156,6 +156,8 @@ h1 span { color: var(--accent); }
     padding-bottom: 5px;
 }
 .mechanic-text p { font-size: 1.05rem; color: var(--text-muted); margin-bottom: 1rem; }
+.mechanic-text p a, .fix-tile p a { color: var(--accent); text-underline-offset: 3px; }
+.mechanic-text p a:hover, .fix-tile p a:hover { color: #fff; }
 .mechanic-text ul { list-style-type: square; margin-left: 1.5rem; color: var(--text-main); }
 .mechanic-text ul li { margin-bottom: 0.5rem; }
 
@@ -188,6 +190,43 @@ h1 span { color: var(--accent); }
     border: 1px solid #444;
     box-shadow: 0 4px 15px rgba(0,0,0,0.5);
     background: #000;
+}
+
+.fix-grid {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(230px, 1fr));
+    gap: 1rem;
+    width: 100%;
+}
+
+.fix-tile {
+    background: #262626;
+    border: 1px solid #383838;
+    border-radius: 10px;
+    padding: 1.25rem;
+}
+
+.fix-tile svg {
+    display: block;
+    width: 26px;
+    height: 26px;
+    margin-bottom: 0.75rem;
+    fill: none;
+    stroke: var(--accent);
+    stroke-width: 2;
+    stroke-linecap: round;
+    stroke-linejoin: round;
+}
+
+.fix-tile h4 {
+    color: #fff;
+    font-size: 1.05rem;
+    margin-bottom: 0.4rem;
+}
+
+.fix-tile p {
+    color: var(--text-muted);
+    font-size: 0.95rem;
 }
 
 @media (max-width: 768px) {
